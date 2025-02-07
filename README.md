@@ -26,18 +26,20 @@ Não há dependências adicionais, pois o projeto utiliza apenas HTML, CSS e Jav
 
 ## Estrutura do Projeto
 
+```text
 desafio-amigo-secreto/
 ├── src/
 │   ├── assets/
 │   │   ├── images/
 │   │   │   └── logo.png
-│   │   ├── styles/
-│   │   │   ├── reset.css
-│   │   │   └── main-content.css
+│   ├── styles/
+│   │   ├── reset.css
+│   │   └── main-content.css
 │   ├── scripts/
 │   │   └── app.js
 ├── index.html
 └── README.md
+```
 
 ## Funcionalidades
 
@@ -79,3 +81,4 @@ Contribuições são bem-vindas! Se você tiver sugestões ou encontrar problema
 ## Licença
 
 Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
