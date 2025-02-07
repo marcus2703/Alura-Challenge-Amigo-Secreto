@@ -15,6 +15,7 @@ body{
     font-family: "Delius Unicase", serif;
     font-size: 26px;
     color: #975d5f;
+    margin-right: 15%;
 }
 
 .main-content__main{
@@ -35,31 +36,84 @@ body{
     padding: 0px 30px;
 }
 
-.main-content__main_form{
+.main-content__main_form {
     margin-top: 5%;
+    display: inline-flex; /* Exibe os elementos lado a lado */
+    align-items: center; /* Alinha os elementos verticalmente */
 }
 
-.main-content__main_input{
+.main-content__main_input {
     background-color: #cbdad5;
     width: 250px;
     border-radius: 100px;
     color: #040c1e;
-    padding: 16px 12px;
+    padding: 0px 12px;
     font-size: 18px;
     outline: 0;
+    height: 62px; /* Altera a altura para igualar ao botão */
+    margin-right: 10px; /* Adiciona um espaço entre o input e o botão */
 }
 
-.main-content__main__button{
+.main-content__main__button {
     background-color: #cbdad5;
     color: #040c1e;
     width: 200px;
-    height: 62px;
+    height: 62px; /* Mantém a altura do botão */
     padding: 16px 12px;
     border-radius: 100px;
     font-size: 20px;
+    display: flex; /* Centraliza o texto e o ícone verticalmente */
+    align-items: center; /* Centraliza o texto e o ícone verticalmente */
+    justify-content: center; /* Centraliza o texto e o ícone horizontalmente */
+}
+
+.main-content__main_lista-participantes {
+    display: none;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f5f2d8;
+    color: #040c1e;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 300px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.main-content__main__list{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 .main-content__main__logo{
     width: 517px;
     height: 520px;
 }
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }

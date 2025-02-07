@@ -4,16 +4,13 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box; /* Adiciona esta linha para um melhor controle de layout */
 }
 
-/* Define as bordas */
+/* Define as bordas e a altura mínima */
 html, body {
-    height: 100vh;
+    height: 100%;
     width: 100%;
-}
-
-/* Fonte padrão */
-body {
     font-family: "Inter", serif;
     line-height: 1.6;
     font-size: 16px;
@@ -37,6 +34,7 @@ button {
     cursor: pointer;
 }
 
+/* Ajusta a redimensionamento do textarea */
 textarea {
     resize: vertical;
 }
