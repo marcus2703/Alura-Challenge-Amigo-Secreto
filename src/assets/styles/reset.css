@@ -1,0 +1,42 @@
+/* Reset CSS Básico */
+
+/* Remove margens e padding padrão */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Define as bordas */
+html, body {
+    height: 100vh;
+    width: 100%;
+}
+
+/* Fonte padrão */
+body {
+    font-family: "Inter", serif;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+/* Remove listas de estilo padrão */
+ul, ol {
+    list-style: none;
+}
+
+/* Remove sublinhado de links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Remove estilos padrão de botões */
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+textarea {
+    resize: vertical;
+}
