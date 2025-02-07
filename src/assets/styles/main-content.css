@@ -54,6 +54,46 @@ body{
     margin-right: 10px; /* Adiciona um espaço entre o input e o botão */
 }
 
+.main-content__main_input.error {
+    border: 2px solid red;
+    outline: 2px solid rgb(255, 0, 0);
+}
+
+/* Estilos para o modal */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #F2EAD0;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+    position: relative;
+    border-radius: 10px;
+    color: #050D26;
+    text-align: center;
+}
+
+.close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
 .main-content__main__button {
     background-color: #cbdad5;
     color: #040c1e;
@@ -78,6 +118,7 @@ body{
     max-width: 300px;
     text-align: left;
     font-size: 18px;
+    list-style: none;
 }
 
 .main-content__main__list{
@@ -93,7 +134,7 @@ body{
     height: 520px;
 }
 
-.material-icons {
+.material-icons, .material-icons-outlined {
     font-family: 'Material Icons';
     font-weight: normal;
     font-style: normal;
@@ -105,6 +146,24 @@ body{
     word-wrap: normal;
     white-space: nowrap;
     direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+
+  .material-icons-outlined {
+    font-family: 'Material Icons';
+    font-size: 18px;
+    margin-left: 5px;
+    color: #ff0000;
   
     /* Support for all WebKit browsers. */
     -webkit-font-smoothing: antialiased;
