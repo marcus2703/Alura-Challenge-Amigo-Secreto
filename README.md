@@ -26,7 +26,6 @@ Não há dependências adicionais, pois o projeto utiliza apenas HTML, CSS e Jav
 
 ## Estrutura do Projeto
 
-\`\`\`
 desafio-amigo-secreto/
 ├── src/
 │   ├── assets/
@@ -39,7 +38,6 @@ desafio-amigo-secreto/
 │   │   └── app.js
 ├── index.html
 └── README.md
-\`\`\`
 
 ## Funcionalidades
 
