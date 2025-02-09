@@ -83,7 +83,7 @@ function sortearNome() {
     }
     const indiceAleatorio = Math.floor(Math.random() * nomes.length);
     const nomeSorteado = nomes[indiceAleatorio];
-    exibirModal(`<h1>E seu amigo secreto é...</h1> <h2>${nomeSorteado}!!</h2>`);
+    exibirModal(`<h2>E seu amigo secreto é...</h2> <h1>${nomeSorteado}!!</h1>`);
 }
 
 

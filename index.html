@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/assets/styles/reset.css">
-    <link rel="stylesheet" href="./src/assets/styles/main-content.css">
+    <link rel="stylesheet" href="./src/assets/styles/base.css">
+    <link rel="stylesheet" href="./src/assets/styles/layout.css">
+    <link rel="stylesheet" href="./src/assets/styles/components.css">
+    <link rel="stylesheet" href="./src/assets/styles/responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Delius&family=Delius+Unicase&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
@@ -18,16 +21,14 @@
         </header>
         <main class="main-content__main">
             <div class="main-content__main_text-area">
-                <p>Insira no formulário abaixo o nome do participante e clique em 'Adicionar'. Repita até ter inserirdo todos os participantes. Após isso, clique em 'Sortear' para realizar o sorteio.
-                </p>    
+                <p>Insira no formulário abaixo o nome do participante e clique em 'Adicionar'. Repita até ter inserido todos os participantes. Após isso, clique em 'Sortear' para realizar o sorteio dos amigos secretos.</p>    
                 <div class="main-content__main_form">
                     <input type="text" id="participante" class="main-content__main_input" placeholder="Nome do participante">
-                    <button class="main-content__main__button" onclick="adicionarNome()"><span class="material-icons">
-                        person_add
-                        </span>Adicionar</button>
+                    <button class="main-content__main__button" onclick="adicionarNome()">
+                        <span class="material-icons">person_add</span>Adicionar
+                    </button>
                 </div>
                 <div id="lista-participantes" class="main-content__main_lista-participantes">
-                    <!-- Aqui serão exibidos os nomes dos participantes -->
                 </div>
             </div>
             <div class="main-content__main__list"> 
