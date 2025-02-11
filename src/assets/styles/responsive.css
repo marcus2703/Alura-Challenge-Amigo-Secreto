@@ -45,3 +45,23 @@
         margin-bottom: 1%; /* Reduzindo a margem inferior para aproximar o título */
     }
 }
+
+/* Estilos para as colunas da lista de participantes */
+@media (max-width: 250px) {
+    .main-content__main_lista-participantes ol {
+        grid-template-columns: repeat(1, 1fr);        
+    }
+}
+
+@media (min-width: 251px) {
+    .main-content__main_lista-participantes ol {
+        grid-template-columns: repeat(2, 1fr); /* Alterar para duas colunas em telas maiores */
+    }
+
+}
+
+@media (min-width: 450px) {
+    .main-content__main_lista-participantes ol {
+        grid-template-columns: repeat(3, 1fr); /* Alterar para três colunas em telas ainda maiores */
+    }
+}
